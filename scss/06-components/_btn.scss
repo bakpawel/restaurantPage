@@ -1,0 +1,41 @@
+.btn {
+  color: $color-white;
+  border: none;
+  border-radius: $gird-base * 0.4;
+  display: inline-block;
+  font-size: $font-base * 2.2;
+  font-weight: bold;
+  padding: $gird-base * 1.5;
+  text-align: center;
+  width: $gird-base * 20;
+  transition-duration: 0.5s;
+  text-decoration: none;
+  // modifier BEM
+  &--red {
+    background-color: $color-red;
+    &:hover {
+      background-color: darken($color-red, 10%);
+    }
+  }
+  &--green {
+    background-color: $color-green;
+    &:hover {
+      background-color: darken($color-green, 10%);
+    }
+  }
+  &--outline {
+    background-color: transparent;
+    border: 1px solid $color-white;
+    font-family: "Italianno";
+    &:hover {
+      background-color: rgba(255, 255, 255, 0.3);
+    }
+  }
+  &--circle {
+    border-radius: 50%;
+    width: $gird-base * 10;
+    height: $gird-base * 10;
+    line-height: $gird-base * 10;
+    padding: 0;
+  }
+}

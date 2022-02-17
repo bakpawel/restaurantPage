@@ -1,0 +1,34 @@
+.image-box {
+  border-radius: $gird-base * 0.6;
+  padding: $gird-base * 0.6;
+  box-shadow: 0px 0px 15px gray;
+
+  &:hover {
+    box-shadow: 0px 0px 25px gray;
+    cursor: pointer;
+  }
+
+  &__image {
+    background: url("../assets/img/one.jpg") center/cover no-repeat;
+    height: $gird-base * 22;
+    display: block;
+    border-top-left-radius: $gird-base * 0.6;
+    border-top-right-radius: $gird-base * 0.6;
+
+    &--next {
+      background: url("../assets/img/two.jpg") center/cover no-repeat;
+    }
+
+    @include medium {
+      height: $gird-base * 16;
+    }
+  }
+
+  &__text {
+    text-align: center;
+    padding: $gird-base * 0.5;
+    font-size: $font-base * 2.4;
+    margin: $gird-base * 2 0;
+    color: $color-white;
+  }
+}

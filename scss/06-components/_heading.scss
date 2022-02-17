@@ -1,0 +1,21 @@
+.heading {
+  &--h1 {
+    font-family: $font-family-decor;
+    color: $color-white;
+    font-size: $font-base * 6;
+    @include medium {
+      font-size: $font-base * 8;
+    }
+    @include large {
+      font-size: $font-base * 10;
+    }
+  }
+  &--h2 {
+    font-family: $font-family-decor;
+    font-size: $font-base * 5;
+    width: 100%;
+    text-align: center;
+    padding-top: $gird-base * 2;
+    margin-bottom: $gird-base * 3;
+  }
+}

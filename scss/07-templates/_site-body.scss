@@ -1,0 +1,7 @@
+.site-body {
+  &__to-top {
+    position: fixed;
+    bottom: $gird-base * 1.5;
+    right: $gird-base * 1.5;
+  }
+}

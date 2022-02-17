@@ -1,0 +1,10 @@
+.site-section {
+  min-height: 70vh;
+  text-align: justify;
+  &--bg-color {
+    background-color: $color-bg-section;
+  }
+}
+#menu {
+  color: $color-white;
+}

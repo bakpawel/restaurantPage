@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Italianno&subset=latin-ext");
+
+// colors
+$color1: #eff0f3;
+$color2: #74030e;
+$color3: #132601;
+
+$color-white: $color1;
+$color-red: $color2;
+$color-green: $color3;
+
+$color-bg-section: #504533;
+
+$color-bg-footer: #201b13;
+
+// fonts
+$font-base: 10px;
+$font-family-base: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+$font-family-decor: "Italianno", cursive;
+
+// grid
+$gird-base: $font-base;
+$gutter: 1.5 * $gird-base;
+
+// break-points for RWD
+$bp-md: 768px;
+$bp-lg: 1240px;
