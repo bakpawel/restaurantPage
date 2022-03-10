@@ -374,7 +374,7 @@ p {
 }
 
 .image-box__image {
-  background: url("../assets/img/one.jpg") center/cover no-repeat;
+  background: url("../assets/img/one.webp") center/cover no-repeat;
   height: 220px;
   display: block;
   border-top-left-radius: 6px;
@@ -382,7 +382,7 @@ p {
 }
 
 .image-box__image--next {
-  background: url("../assets/img/two.jpg") center/cover no-repeat;
+  background: url("../assets/img/two.webp") center/cover no-repeat;
 }
 
 @media all and (min-width: 768px) {
@@ -461,7 +461,7 @@ p {
 }
 
 .site-header {
-  background: url("../assets/img/start.jpg") center/cover no-repeat;
+  background: url("../assets/img/start.webp") center/cover no-repeat;
   background-attachment: fixed;
   height: 100vh;
   position: relative;
@@ -509,7 +509,7 @@ p {
 }
 
 .site-contact {
-  background: url("../assets/img/contact.jpg") center/cover no-repeat;
+  background: url("../assets/img/contact.webp") center/cover no-repeat;
   background-attachment: fixed;
   position: relative;
   min-height: 110vh;
